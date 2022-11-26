@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactme</title>
+</head>
+<body>
+    <h1>Contactme</h1>
+    <section>
+        <form action="#./server.html" method="post">
+            <p>
+
+                <label for="Name1">Name</label>
+                <input type="text" name="first" id="Name1">
+            </p>
+            <p>
+
+                <label for="Email1"> Myemail</label>
+                <input type="email" name="email" id="Email1">
+            </p>
+            <fieldset>
+                <legend>Best time to call</legend>
+                <p>
+                    <label>
+                        <input type="radio" name ="time" value="morning">morning
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="radio" name="time" value="Afternoon">Afternoon
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="radio" name="time" value="evening">Evening
+                    </label>
+                </p>
+            </fieldset> 
+            <p>
+                <label for="ASAP">ASAP</label>
+                <INPUt type="checkbox" name="asap" id="asap"></INPUt>
+            </p>
+            <p>
+                <label for="reason" >Reason for contact</label>
+                <select name="Reason" id="reason">
+                    <option value=" to check error in my code">code</option>
+                    <option value="to repair my car">repair</option>
+                    <option value="will not be able to attend">attendance</option>
+                </select>
+            </p>
+            <p>
+                <textarea placeholder="Brief Explanation" name="comment" id="" cols="30" rows="10"> </textarea>
+            </p>
+            <p>
+                <button type="submit">submit</button>
+            </p> 
+        </form>
+    </section>
+    
+</body>
+</html>
